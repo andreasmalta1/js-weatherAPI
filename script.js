@@ -17,7 +17,7 @@ getWeatherData = async (lat, lon) => {
         tempMin: data.main.temp_min,
         city: data.name
       }
-      showWeatherData(weweatherData)
+      showWeatherData(weatherData)
     })
     .catch(err => console.log(err))
 
